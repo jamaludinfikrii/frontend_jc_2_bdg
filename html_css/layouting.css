@@ -1,0 +1,49 @@
+.container-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .container-flex div{
+    flex: 1;
+} */
+
+.box-1{
+    flex: 1;
+    background-color: teal;
+}
+
+.box-2{
+    flex: 1;
+    background-color:tan;
+}
+
+.box-3{
+    flex: 1;
+    background-color: tomato;
+}
+
+
+.container-flex-gojek{
+    display: flex;
+    margin-top: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.kotak{
+    height: 290px;
+    width: 240px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak-item{
+    border: 1px solid grey;
+    flex: 1;
+}
+

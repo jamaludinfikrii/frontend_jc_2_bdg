@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
+.kuning{
+    color: yellow;
+}
+
+.gojek-color{
+    color: #00ab14;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    background: radial-gradient(yellow,blue);
+}
+
+.text-heading-gojek{
+    background-color: #00ab14;
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Sriracha', Helvetica, sans-serif;
+    padding: 10px 10px 10px;
+    margin-left: 20px;
+    height: 100vh;
+}
+
+
+.button-purwadhika{
+    background-color: #53b59f;
+    /* height: 45px; */
+    width: 255px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    padding:20px;
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.button-purwadhika:hover{
+    background-color: white;
+    color: #53b59f;
+    border: 1px #53b59f solid;
+    transition: 500ms;
+}

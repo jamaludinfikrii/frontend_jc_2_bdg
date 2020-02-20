@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Positioning</title>
+    <style>
+        /* .container{
+            height: 50px;
+            width: 200px;
+            background-color: lightgreen;
+        }
+
+        .item-1{
+            height: 30px;
+            width: 200px;
+            background-color: lightcoral      ;
+            position: absolute;
+            right: 0px;
+            top: 10px;     
+        } */
+
+        .card{
+            height:500px ;
+            width:200px;
+            border: 1px solid grey;
+            position: relative;
+        }
+        .exit-btn{
+            border: 0.5px solid black;
+            height: 30px;
+            width: 30px;
+            border-radius: 30px;
+            text-align: center;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            margin: auto;
+            /* vertical-align:middle; */
+        }
+
+        .button{
+            border: 1px solid lightblue;
+            padding: 5px;
+            border-radius: 10px;
+            display: inline-block;
+            background-color: lightcoral;
+            color: white;
+            position: fixed;
+            bottom: 10px;
+            left: 50vw;
+        }
+
+        .welcome-card{
+            border: 1px solid black;
+            display: inline-block;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            left: 35vw;
+            top: 0px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        1. Static (default)
+        2. Non Static // absolute, relative, fixed, sticky
+     -->
+     <div class="welcome-card">
+        <h1>Welcome In My Website</h1>
+        <input type="text" placeholder="Fill Your Name Here">
+
+     </div>
+     <div class="card">
+         <h3>Judul</h3>
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse veniam molestiae impedit quo vero labore, iure in. Odit, reprehenderit praesentium minus veniam, distinctio soluta vero a in, molestias reiciendis quod.
+         <div class="exit-btn">x</div>
+     </div>
+     <div class="button">
+         Buy Now
+     </div>
+
+
+
+     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci temporibus earum consequuntur harum natus, necessitatibus nesciunt magnam rem sed ex. Amet eveniet nisi, tenetur iusto iure provident officiis qui excepturi!</h1>
+     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci temporibus earum consequuntur harum natus, necessitatibus nesciunt magnam rem sed ex. Amet eveniet nisi, tenetur iusto iure provident officiis qui excepturi!</h1>
+     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci temporibus earum consequuntur harum natus, necessitatibus nesciunt magnam rem sed ex. Amet eveniet nisi, tenetur iusto iure provident officiis qui excepturi!</h1>
+     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci temporibus earum consequuntur harum natus, necessitatibus nesciunt magnam rem sed ex. Amet eveniet nisi, tenetur iusto iure provident officiis qui excepturi!</h1>
+     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci temporibus earum consequuntur harum natus, necessitatibus nesciunt magnam rem sed ex. Amet eveniet nisi, tenetur iusto iure provident officiis qui excepturi!</h1>
+     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci temporibus earum consequuntur harum natus, necessitatibus nesciunt magnam rem sed ex. Amet eveniet nisi, tenetur iusto iure provident officiis qui excepturi!</h1>
+     <!-- <div class="container">
+    </div>
+    <div class="item-1">
+
+    </div> -->
+
+
+</body>
+</html>

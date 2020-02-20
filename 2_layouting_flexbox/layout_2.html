@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout 2</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .flex-container{
+            /* background-color: blue; */
+            height: 100vh;  
+            display: flex;
+            /* Viewport Height */
+        }
+        
+        .flex-item{
+
+            padding: 20px;
+            /* background-color: teal; */
+        }
+        
+        .item-1{
+            background-color: grey;
+            flex: 1;
+            text-align: center;
+        }
+        .item-2{
+            flex: 6;
+            /* background-color: pink; */
+        }
+        </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item item-1">
+            <div style="margin-top: 30px;">Logo</div>
+            <p>Link 1</p>
+            <p>Link 2</p>
+            <p>Link 3</p>
+            <p>Link 4</p>
+        </div>
+        <div class="flex-item item-2">
+            <div style="font-size: 32px; font-weight: bolder;"> Sidebar Navigation Layout</div>
+            <h3>Paragraf 1</h3>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis beatae nulla eaque voluptatem debitis maxime tenetur magnam? Sequi a error quas maxime commodi, ipsum tenetur vitae adipisci alias doloremque cupiditate?</div>
+            <h3>Paragraf 2</h3>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quaerat quam voluptate suscipit libero velit, quas error facere earum iste, quibusdam ut. Dolor aspernatur autem exercitationem vero obcaecati beatae nobis?</div>
+        </div>
+    </div>
+</body>
+</html>

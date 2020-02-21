@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Summary Flexbox</title>
+    <style>
+        .parent{
+            padding: 0px 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 50vh;
+            background-color: lightgrey;
+            align-items: center;
+        }
+        .item-1{
+            height: 50%;
+            border: 1px solid red;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <!-- 
+        Display : flex (parent)
+        Justify-content : flex-start | center | flex-end (parent)
+        flex-direction : row | column (parent)
+        allign-items : center | flex-end | flex-start (parent)
+        flex : 1 | 2 | 3 (items)
+     -->
+
+     <div class="parent">
+         <div class="item-1">
+            item 1
+         </div>
+     </div>
+</body>
+</html>

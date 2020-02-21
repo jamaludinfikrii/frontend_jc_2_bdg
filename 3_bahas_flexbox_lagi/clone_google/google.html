@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google.com</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            /* padding: 15px; */
+            height: 100vh;
+            background-color: lightgray;
+        }
+
+        .avatar{
+            width: 32px;
+            height: 32px;
+            border-radius: 32px;
+        }
+
+        .header{
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            border: 1px solid red;
+        }
+        .footer{
+            padding: 15px;
+            border: 1px solid green;
+        }
+        .content{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid yellow;
+        }
+        .menu{
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+        }
+
+        .header a{
+            font-size: 16px;
+            margin-right: 15px;
+            text-decoration: none;
+            color: rgba(0,0,0,0.87);
+        }
+
+        .footer-bawah{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-between;
+        }
+        .content-wrapper{
+            /* border: 1px solid green; */
+            text-align: center
+        }
+
+        .input-google-search{
+            width: 584px;
+            height: 46px;
+            border-radius: 46px;
+            border: none;
+            /* padding-left: 40px; */
+        }
+        .search-icon{
+            width: 30px;
+            /* margin-left: 20px; */
+            /* flex: 1; */
+            /* width: 10px;
+            height: 10px;
+             */
+        }
+
+        .search-icon-container{
+            /* border: 1px solid blue; */
+            display: flex;
+            align-items: center;
+        }
+
+
+        .search-container{
+            padding-left:10px ;
+            display: flex;
+            background-color: white;
+            border-radius: 46px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="">Gmail</a>
+            <a href="">Images</a>
+            <img class="menu" src="./menu-bar-png-1.png" alt="">
+            <img class="avatar" src="./avatar.png" alt="">
+        </div>
+        <div class="content">
+            <div class="content-wrapper">
+                <div>
+                    <img src="./logo.png" width="272px" alt="">
+                </div>
+                <div>
+                    <div class="search-container" style="border: 1px solid red;">
+                        <div class="search-icon-container">
+                            <img  width="10px" class="search-icon" src="./search-icon.png" alt="">
+                        </div>
+                        <input class="input-google-search" type="text">
+                    </div>
+                </div>
+                <div>
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+                <div>
+                        See how machine learning is bringing Japanese scripts to life: Search On
+                </div>
+                <div>
+                        Google offered in: Indonesia Basa Bali
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-atas">
+                Indonesia
+            </div>
+            <div class="footer-bawah">
+                <div class="kiri">
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">About</a>
+                    <a href="">How Search Works</a>
+                </div>
+                <div class="kanan">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

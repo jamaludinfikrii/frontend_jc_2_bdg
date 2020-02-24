@@ -1,0 +1,57 @@
+<!-- 
+    Box Sizing
+    CSS Specificity
+ -->
+
+ <!-- 
+     CSS Specificity
+     0. !important
+     1. inline (bobot paling tinggi)
+     2. id
+     3. classes
+     4. tag (bobot paling rendah)
+  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Sizing</title>
+    <style>
+        
+        *{
+            box-sizing: border-box;
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            padding-left: 100px;
+        }
+
+
+        #merah{
+            color: red;
+        }
+
+        .biru{
+            color: blue !important;
+        }
+        p{
+            font-size: 1rem;
+        }
+    </style>
+</head>
+    
+<body>
+    <div>
+        Ini Div
+    </div>
+    <span>
+        <p style="color: chartreuse;" class="biru" id="merah">Latihan Specificity</p>
+    </span>
+</body>
+</html>

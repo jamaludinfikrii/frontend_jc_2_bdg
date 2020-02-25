@@ -1,0 +1,35 @@
+@font-face{
+    font-family: myfont;
+    src: url('./Assets/Font/Maison Neue Font Families/Maison Neue/MaisonNeue-Book.otf') format('opentype');
+}
+
+
+*{
+    font-family: myfont;
+}
+
+
+.gojek-navbar{
+    height: 80px;
+    background-color: white !important;
+    border-bottom: 1px solid red;
+}
+
+
+
+.gojek-jumbotron{
+    height: 545px;
+    background-image: url('./Assets/Image/jumbotron.webp');
+    background-position: right;
+    background-size: cover;
+}
+.gojek-jumbotron-title{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.gojek-jumbotron-sub-title{
+    color: white;
+    font-size: 28px;
+}

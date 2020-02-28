@@ -11,7 +11,7 @@
 <body>
 
     <!-- ========== NAVBAR =============== -->
-    <nav class="gojek-navbar navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="gojek-navbar navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./Assets/Image/gojek-logo_normal.svg"  alt="">
@@ -51,13 +51,24 @@
 
     <!-- ================== JUMBOTRON =================== -->
     <div class="container-fluid">
-        <div class="gojek-jumbotron row align-items-center">
-            <div class="container">
-                <div class="gojek-jumbotron-title">
-                    The solution for every <br> situation.
+        <div class="gojek-jumbotron row align-items-md-center align-items-end">
+            <div class="container pb-5 pb-md-0">
+                <div  class="gojek-jumbotron-title">
+                    The solution for every situation.
                 </div>
                 <div class="gojek-jumbotron-sub-title">
                     With Gojek, there is always a way
+                </div>
+            </div>
+        </div>
+        <!-- ============= FIXED MESSAGE =============== -->
+        <div class="gojek-fixed-message-container">
+            <div style="border: 1px solid red;" class="h-100 row align-items-center">
+                <div id="exit" class="col-10">
+                    ini 10
+                </div>
+                <div class="col-2">
+                    ini 2
                 </div>
             </div>
         </div>
@@ -66,8 +77,18 @@
 
 
 
+    <script src="https://unpkg.com/scrollreveal"></script>10
+    <script>
+        function exit(){
+            document.getElementsByClassName('gojek-fixed-message-container')[0].className += ' gojek-hidden'
+        }
 
-
+        ScrollReveal().reveal('.gojek-jumbotron-title');
+        // exit()
+        document.getElementById('exit').addEventListener('click',exit)
+        
+    </script>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

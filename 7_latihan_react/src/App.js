@@ -26,6 +26,7 @@ function App () {
       <Photo width='50px' link='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg' />
       <Photo width='200px' link='https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg' />
     </div>
+
   );
   
 }
@@ -52,5 +53,4 @@ export default App;
         // import named
 // props
 // routing
-// lifecycle method
-// state
+// state && lifecycle method

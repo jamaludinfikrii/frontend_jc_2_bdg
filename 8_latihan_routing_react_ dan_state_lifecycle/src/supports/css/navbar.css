@@ -1,0 +1,12 @@
+.my-navbar{
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.my-navbar span{
+    cursor: pointer;
+}
+
+.my-navbar-link:hover{
+    color: rgba(0, 0, 0, 0.5);
+}

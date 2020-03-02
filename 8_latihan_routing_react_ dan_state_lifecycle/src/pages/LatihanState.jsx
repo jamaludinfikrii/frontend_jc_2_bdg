@@ -28,7 +28,7 @@ class LatihanState extends React.Component{
     }
 
     onBtnMinClick = () => {
-        this.setState({num : this.state.num == 0 ? 0 : this.state.num - 1})
+        this.setState({num : this.state.num === 0 ? 0 : this.state.num - 1})
 
         // var angka = this.state.num
         // angka --

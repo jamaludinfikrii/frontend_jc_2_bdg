@@ -4,6 +4,7 @@ import Home from './pages/Homepage'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import BisaApaAja from './pages/LatihanState'
+import LifeCyclePage from './pages/LifecycleMethod'
 import { Route } from 'react-router-dom'
 
 class App extends Component {
@@ -22,6 +23,9 @@ class App extends Component {
         </Route>
         <Route path='/latihan-state'>
           <BisaApaAja/>
+        </Route>
+        <Route path='/lifecycle'>
+          <LifeCyclePage/>
         </Route>
       </div>
     );

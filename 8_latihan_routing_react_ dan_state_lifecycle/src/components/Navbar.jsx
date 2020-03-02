@@ -20,7 +20,10 @@ class Navbar extends React.Component{
                                 <span className='mr-3 my-navbar-link'>Register</span>
                             </Link>
                             <Link to='/latihan-state'>
-                                <span className='my-navbar-link'>State</span>
+                                <span className='mr-3 my-navbar-link'>State</span>
+                            </Link>
+                            <Link to='/lifecycle'>
+                                <span className='mr-3 my-navbar-link'>Lifecycle</span>
                             </Link>
                         </span>
                     </div>

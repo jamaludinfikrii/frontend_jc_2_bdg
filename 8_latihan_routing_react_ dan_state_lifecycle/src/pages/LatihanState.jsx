@@ -10,7 +10,8 @@ class LatihanState extends React.Component{
     state = { 
         nama : 'fikri',
         num : 1,
-        todo : ['bangun tidur']
+        todo : ['bangun tidur'],
+        my_name : ''
     }
 
     // UBAH STATE
@@ -59,6 +60,17 @@ class LatihanState extends React.Component{
         // this.refs.todo.value = ''
     }
 
+    onBtnNamaClick =() => {
+        this.setState(
+            {
+                my_name : this.refs.myName.value, 
+                num : 100,
+                nama : 'andi'
+            }
+        )
+        this.refs.myName.value = ''   
+    }
+
     render(){
         console.log('render ke triger')
         return (
@@ -89,10 +101,12 @@ class LatihanState extends React.Component{
 
                 <hr/>
 
-                <div>
-                    
-                </div>
 
+                {/* LATIHAN 4 */}
+                <div>
+                    Nama Saya adalah = {this.state.my_name} <br/>
+                    <input ref='myName' type="text" placeholder='your name'/> <button onClick={this.onBtnNamaClick}>klik</button>
+                </div>
 
             </div>
         )
